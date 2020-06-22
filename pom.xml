@@ -94,6 +94,49 @@
             <artifactId>fastjson</artifactId>
             <version>1.1.40</version>
         </dependency>
+        <dependency>
+            <groupId>org.apache.lucene</groupId>
+            <artifactId>lucene-core</artifactId>
+            <version>8.5.2</version>
+            <!--<classifier>sources</classifier>-->
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.lucene</groupId>
+            <artifactId>lucene-highlighter</artifactId>
+            <version>8.5.2</version>
+            <classifier>sources</classifier>
+        </dependency>
+
+        <!-- http://mvnrepository.com/artifact/org.apache.lucene/lucene-analyzers-common -->
+        <dependency>
+            <groupId>org.apache.lucene</groupId>
+            <artifactId>lucene-analyzers-common</artifactId>
+            <version>8.5.2</version>
+            <!--<classifier>sources</classifier>-->
+        </dependency>
+
+        <!-- http://mvnrepository.com/artifact/org.apache.lucene/lucene-memory -->
+        <dependency>
+            <groupId>org.apache.lucene</groupId>
+            <artifactId>lucene-memory</artifactId>
+            <version>8.5.2</version>
+            <!--<classifier>sources</classifier>-->
+        </dependency>
+
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.12</version>
+        </dependency>
+
+        <!-- http://mvnrepository.com/artifact/org.apache.lucene/lucene-queryparser -->
+        <dependency>
+            <groupId>org.apache.lucene</groupId>
+            <artifactId>lucene-queryparser</artifactId>
+            <version>8.5.2</version>
+            <!--<classifier>sources</classifier>-->
+        </dependency>
 
     </dependencies>
 
